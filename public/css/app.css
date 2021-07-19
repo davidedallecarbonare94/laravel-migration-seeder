@@ -1,0 +1,50 @@
+.journeys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.journeys .card {
+  border: 2px solid darkblue;
+  background-color: lightblue;
+  width: 45%;
+  padding: 2rem 0rem;
+  margin: 0.5rem 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.journeys .card .upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #f0a980;
+  border: 2px solid #ff7a7a;
+  border-radius: 10px;
+}
+
+.journeys .card p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/jcr_content.jpg?4be1e808c0cdf0d7b9ee524090419415);
+  background-size: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
