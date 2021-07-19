@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $journeys = App\Journey::all();
+    return view('welcome', compact('journeys'));
 });
